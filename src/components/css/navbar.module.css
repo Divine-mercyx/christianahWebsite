@@ -116,9 +116,9 @@
     margin-left: 5px;
 }
 
-.rotate {
-    transform: rotate(90deg);
-}
+/*.rotate {*/
+/*    transform: rotate(90deg);*/
+/*}*/
 
 .dropdownTrigger {
     display: flex;
