@@ -37,15 +37,15 @@ export function Navbar() {
                     )}
                 </li>
             </ul>
-            <div className={styles.hamburger} onClick={toggleMenu}>
-                <span className={isOpen ? styles.open : ''}></span>
-                <span className={isOpen ? styles.open : ''}></span>
-                <span className={isOpen ? styles.open : ''}></span>
+            <div className={styles.navActions}>
+                <button className={styles.signInButton}>Join</button>
+                <div className={styles.hamburger} onClick={toggleMenu}>
+                    <span className={isOpen ? styles.open : ''}></span>
+                    <span className={isOpen ? styles.open : ''}></span>
+                    <span className={isOpen ? styles.open : ''}></span>
+                </div>
             </div>
 
-            <div>
-                <button className={styles.signInButton}>Join</button>
-            </div>
         </nav>
     );
 }
