@@ -1,0 +1,28 @@
+.hero{
+    display: flex;
+    padding-top: 100px;
+
+}
+
+.heroSection {
+    font-size: 50px;
+    font-family: "DejaVu Serif", serif;
+}
+.getStartedBtn{
+    color: white;
+    background-color: #0056b3;
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 10px;
+}
+.learnMoreBtn{
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+.image{
+    height:100vh;
+    padding-left: 100px;
+}
+

@@ -16,7 +16,7 @@ export function Navbar() {
     return (
         <nav className={styles.navbar}>
             <div className={styles.logo}>
-                <h1>Logo</h1>
+                <h1>Xtianah</h1>
             </div>
 
             <ul className={isOpen ? `${styles.home} ${styles.active}` : styles.home}>
