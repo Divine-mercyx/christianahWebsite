@@ -3,6 +3,7 @@ import {Navbar} from './components/navbar.jsx'
 import {HeroSection} from "./components/heroSection.jsx";
 import {SecureBanking} from "./components/secureBanking.jsx";
 import {Innovate} from "./components/innovate.jsx";
+import {Empower} from "./components/empower.jsx";
 export function App() {
 
   return (
@@ -11,6 +12,7 @@ export function App() {
           <HeroSection/>
           <SecureBanking/>
           <Innovate/>
+          <Empower/>
       </>
   )
 }

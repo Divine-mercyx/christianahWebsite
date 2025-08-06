@@ -3,7 +3,7 @@ import styles from './css/secureBanking.module.css'
 import secure from '../assets/secureBanking.png'
 export const SecureBanking = () => {
     return (
-        <div style={{backgroundColor: '#c8d6e3', display: 'flex', paddingBottom: '50px'}}>
+        <div style={{backgroundColor: '#c8d6e3', display: 'flex', paddingBottom: '70px'}}>
             <div className={styles.all}>
                 <p style={{fontStyle: 'oblique', fontWeight: 'bold'}}>Secure</p>
                 <p className={styles.paragraph}>Experience Banking Like<br/> Never Before</p>
