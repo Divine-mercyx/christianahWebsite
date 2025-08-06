@@ -6,10 +6,10 @@ import atm from '../assets/atm.png'
 
 export const Innovate = () => {
     return (
-        <div style={{paddingLeft: '20px'}}>
+        <div style={{paddingLeft: '30px', paddingTop: '40px',  paddingBottom: '50px'}}>
             <div className={styles.container}>
                 <p style={{fontStyle: 'oblique', fontWeight: 'bold'}}>Innovate</p>
-                {/*<p style={{fontSize: '40px'}}>Explore Our Cutting-Edge <br/>Banking Features</p>*/}
+                <p style={{fontSize: '40px'}}>Explore Our Cutting-Edge <br/>Banking Features</p>
                 <p> At Xtianah, we prioritize your banking experience with our innovative features. Enjoy seamless <br/>
                 access to your finances anytime, anywhere.
                 </p>

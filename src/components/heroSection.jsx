@@ -6,7 +6,7 @@ import heroImage from '../assets/hero-section.jpg'
 export const HeroSection = () => {
   return (
       <div className={styles.hero}>
-          <div style = {{paddingTop: '10px', paddingLeft: '20px', paddingRight: '20px'}}>
+          <div style = {{paddingTop: '10px', paddingLeft: '30px', paddingRight: '20px'}}>
               <h1 className={styles.heroSection}>
                   Empowering Your <br/>Financial Journey <br/>with Xtianah
               </h1>
