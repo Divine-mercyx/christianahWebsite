@@ -26,7 +26,7 @@ export const Join = () => {
 
                 </div>
                 <div>
-                    <img src={create} alt='create' style={{width: '400px', height: '200px', paddingTop: '50px'}}/>
+                    <img src={create} alt='create' style={{width: '300px', height: '150px', paddingTop: '50px'}}/>
                     <p style={{fontSize: '20px'}}>Step 2: Create Your Account </p>
                     <h6>Fill in your details to set up your account</h6>
                 </div>
@@ -36,9 +36,12 @@ export const Join = () => {
                     <h6>Complete the verification process to secure your <br/> account</h6>
                 </div>
             </div>
-            <div>
+            <div style={{display: 'flex', gap: '60px', paddingTop: '50px'}}>
+                <div >
+                    <button style={{padding: '15px', borderRadius: '15px',backgroundColor: 'white'}}>Start</button>
+                </div>
                 <div>
-                    <button style={{padding: '15px', borderRadius: '15px'}}>Start</button>
+                    <button style={{border: 'none',backgroundColor: 'white', paddingTop: '15px'}}>Learn More ></button>
                 </div>
             </div>
         </div>
