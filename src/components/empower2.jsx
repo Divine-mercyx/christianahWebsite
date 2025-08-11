@@ -2,7 +2,7 @@ import React from "react";
 import laptop from '../assets/laptop.png'
 export const Empower2 = () => {
     return (
-        <div style={{paddingTop: '40px', paddingLeft: '30px', backgroundColor: '#c8d6e3', paddingBottom: '50px'}}>
+        <div style={{paddingTop: '40px', paddingLeft: '30px', backgroundColor: '#c8d6e3', paddingBottom: '10%'}}>
            <div style={{display: 'flex'}}>
                <div>
                     <div >
